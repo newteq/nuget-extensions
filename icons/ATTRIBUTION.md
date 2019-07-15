@@ -9,3 +9,7 @@ Icon maybe by [srip](https://www.flaticon.com/authors/srip) from [flaticon](www.
 ### extensions.iservicecollection.png
 
 Icon maybe by [monkik](https://www.flaticon.com/authors/monkik) from [flaticon](www.flaticon.com)
+
+### no-entry.png
+
+Icon maybe by [Freepik](https://www.freepik.com/) from [flaticon](www.flaticon.com)
