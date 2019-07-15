@@ -1,4 +1,6 @@
-﻿using System.Text;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 
 namespace System
 {
@@ -191,6 +193,30 @@ namespace System
             }
 
             return string.Join(" ", outputWords);
+        }
+
+        /// <summary>
+        /// This joins a string array of items in a natural english way.
+        /// For example, and array with the following contents: ["Nick", "John", "Albert", "Sarah"]
+        /// Will result in a string result as: "Nick, John, Albert, and Sarah"
+        /// </summary>
+        /// <param name="input">The string array to combine</param>
+        /// <returns>A string that is joined by natural english</returns>
+        public static string NaturalJoin(this string[] input)
+        {
+            return $"{string.Join(", ", input, 0, input.Length - 2)}, and {input[input.Length - 1]}";
+        }
+
+        /// <summary>
+        /// This joins a string array of items in a natural english way.
+        /// For example, and array with the following contents: ["Nick", "John", "Albert", "Sarah"]
+        /// Will result in a string result as: "Nick, John, Albert, and Sarah"
+        /// </summary>
+        /// <param name="input">The string array to combine</param>
+        /// <returns>A string that is joined by natural english</returns>
+        public static string NaturalJoin(this IEnumerable<string> input)
+        {
+            return input.ToArray().NaturalJoin();
         }
     }
 }

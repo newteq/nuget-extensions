@@ -28,3 +28,4 @@ All the methods are striaght forward, but if you need more information, simply s
   - ToBase64
   - ToCamelCase
   - ToTitle
+  - NaturalJoin

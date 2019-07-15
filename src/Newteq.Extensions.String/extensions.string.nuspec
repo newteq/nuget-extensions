@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Newteq.Extensions.String</id>
-        <version>1.0.0</version>
+        <version>1.0.1</version>
         <description>This package provides some extremely useful C# extensions on top of the base type string. 
 		These extensions can easily be used off of any string in C#. The bulk of these extensions are simply syntactic sugar to allow for easier reading of code</description>
         <authors>Newteq</authors>
@@ -13,7 +13,7 @@
         <iconUrl>https://raw.githubusercontent.com/newteq/nuget-extensions/master/icons/extensions.string.png</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <summary>This package provides some extremely useful C# extensions on top of the base type string.</summary>
-        <releaseNotes>First release. Enjoy!</releaseNotes>
+        <releaseNotes>And new natural join method</releaseNotes>
         <copyright>Newteq</copyright>
         <tags>string C# extensions syntactic sugar</tags>
         <repository type="git" url="https://github.com/newteq/nuget-extensions.git"></repository>
