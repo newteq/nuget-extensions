@@ -28,5 +28,9 @@
         <tags>C# extensions IServiceCollection Dependency Injection DI Api Services</tags>
         <repository type="git" url="git@github.com:newteq/nuget-extensions.git"></repository>
 
+        <dependencies>
+          <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="2.2.0"></dependency>
+        </dependencies>
+
     </metadata>
 </package>
