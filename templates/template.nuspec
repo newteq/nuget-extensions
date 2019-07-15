@@ -11,13 +11,13 @@
         <title>Something Extensions for C# ASPNET CORE</title>
         <license type="expression">Apache-2.0</license>
         <projectUrl>https://github.com/newteq/nuget-extensions</projectUrl>
-        <iconUrl>https://raw.githubusercontent.com/newteq/nuget-extensions/master/icons/NAME.png</iconUrl>
+        <iconUrl>https://raw.githubusercontent.com/newteq/nuget-extensions/master/icons/extensions.NAME.png</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <summary></summary>
         <releaseNotes>First release. Enjoy!</releaseNotes>
         <copyright>Newteq</copyright>
-        <tags>C# extensions</tags>
-        <repository type="git" url="git@github.com:newteq/nuget-extensions.git"></repository>
+        <tags>C# extensions ASPNETCORE</tags>
+        <repository type="git" url="https://github.com/newteq/nuget-extensions.git"></repository>
 
     </metadata>
 </package>
