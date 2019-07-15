@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <id>Newteq.Extensions.String</id>
+        <version>1.0.0</version>
+        <description>This package provides some extremely useful C# extensions on top of the base type string. 
+		These extensions can easily be used off of any string in C#. The bulk of these extensions are simply syntactic sugar to allow for easier reading of code</description>
+        <authors>Newteq</authors>
+
+        <title>String Extensions for C# ASPNET CORE</title>
+        <license type="expression">Apache-2.0</license>
+        <projectUrl>https://github.com/newteq/nuget-extensions</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/newteq/nuget-extensions/master/icons/extensions.string.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <summary>This package provides some extremely useful C# extensions on top of the base type string.</summary>
+        <releaseNotes>First release. Enjoy!</releaseNotes>
+        <copyright>Newteq</copyright>
+        <tags>string C# extensions syntactic sugar</tags>
+        <repository type="git" url="https://github.com/newteq/nuget-extensions.git"></repository>
+    </metadata>
+</package>
