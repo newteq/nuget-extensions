@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <metadata>
+        <!-- Required -->
+        <id>Newteq.Extensions.IServiceCollection</id>
+        <version>1.0.0</version>
+        <description>
+          The main purpose of this package is to allow you to use a new extension method added to the IServiceCollection called "TryAdd{Scope/Lifetime}". This extends the functionality of the existing calls on IServiceCollection to Add.
+
+          This extension helps you to ensure that a Service and Implementation is only ever registered once.
+
+          The available methods are:
+          TryAddSingleton
+          TryAddScoped
+          TryAddTransient
+        </description>
+        <authors>Newteq</authors>
+
+        <!-- Optional -->
+        <title>IServiceCollection Extensions for C# ASPNET CORE</title>
+        <license type="expression">Apache-2.0</license>
+        <projectUrl>https://github.com/newteq/nuget-extensions</projectUrl>
+        <iconUrl>https://raw.githubusercontent.com/newteq/nuget-extensions/master/icons/extensions.iservicecollection.png</iconUrl>
+        <requireLicenseAcceptance>true</requireLicenseAcceptance>
+        <summary>The main purpose of this package is to allow you to use a new extension method added to the IServiceCollection called "TryAdd{Scope/Lifetime}"</summary>
+        <releaseNotes>First release. Enjoy!</releaseNotes>
+        <copyright>Newteq</copyright>
+        <tags>C# extensions IServiceCollection Dependency Injection DI Api Services</tags>
+        <repository type="git" url="git@github.com:newteq/nuget-extensions.git"></repository>
+
+    </metadata>
+</package>
