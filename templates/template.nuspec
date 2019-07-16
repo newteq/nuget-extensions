@@ -20,4 +20,8 @@
         <repository type="git" url="https://github.com/newteq/nuget-extensions.git"></repository>
 
     </metadata>
+
+    <files>
+        <file src=".\lib\*.*" />
+    </files>
 </package>
