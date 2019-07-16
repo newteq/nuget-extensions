@@ -23,13 +23,13 @@ The use case of this package is extremely unquie but it can be used to add in DI
           Using this package's extenstions will allow you to register more than 1 implementation for a specified interface.
         </summary>
         <releaseNotes>
-Make the nuget package work with the nuspec file. You should be able to properly use this package now.
+First working release (Make the nuget package work with the nuspec file. You should be able to properly use this package now).
 Breaking changes (old methods removed) - methods names have been changed.
 Update the description and usage information.
 Add clarity to why/where/how this should be used.
         </releaseNotes>
         <copyright>Newteq</copyright>
-        <tags>C# extensions IServiceCollection Dependency Injection DI Api Services</tags>
+        <tags>C# extensions IServiceCollection Dependency Injection DI Api Services DependencyInjection ASPNETCORE dotnetcore core</tags>
         <repository type="git" url="https://github.com/newteq/nuget-extensions.git"></repository>
 
         <dependencies>
