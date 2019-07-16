@@ -6,10 +6,24 @@ The bulk of these extensions are simply syntactic sugar to allow for easier read
 
 # Usage
 
-There is no need to import any namepsace, simply use the methods available off of the string type.
+Below is an example of the usage of one of the methods
 
 ```
-This is because we piggy-back off the System namespace
+using Newteq.Extensions.String;
+using System;
+
+namespace Newteq.Extensions.Usage.ConsoleApp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            var helloWorld = "hello world with all the first letter's capitalized";
+            Console.WriteLine(helloWorld.IsNullOrEmpty());
+        }
+    }
+}
+
 ```
 
 # Available Methods

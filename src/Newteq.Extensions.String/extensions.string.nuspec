@@ -2,9 +2,12 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Newteq.Extensions.String</id>
-        <version>1.0.1</version>
-        <description>This package provides some extremely useful C# extensions on top of the base type string. 
-		These extensions can easily be used off of any string in C#. The bulk of these extensions are simply syntactic sugar to allow for easier reading of code</description>
+        <version>1.1.0</version>
+        <description>
+          This package provides some extremely useful C# extensions on top of the base type string. 
+		      These extensions can easily be used off of any string in C#.
+          The bulk of these extensions are simply syntactic sugar to allow for easier reading of code
+        </description>
         <authors>Newteq</authors>
 
         <title>String Extensions for C# ASPNET CORE</title>
@@ -13,9 +16,11 @@
         <iconUrl>https://raw.githubusercontent.com/newteq/nuget-extensions/master/icons/extensions.string.png</iconUrl>
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <summary>This package provides some extremely useful C# extensions on top of the base type string.</summary>
-        <releaseNotes>And new natural join method</releaseNotes>
+        <releaseNotes>
+          Update the namespace to be our namespace (nuget doesn't seem to like us using System)
+        </releaseNotes>
         <copyright>Newteq</copyright>
-        <tags>string C# extensions syntactic sugar</tags>
+        <tags>string C# extensions syntactic sugar ASPNETCORE dotnetcore core</tags>
         <repository type="git" url="https://github.com/newteq/nuget-extensions.git"></repository>
     </metadata>
 </package>
