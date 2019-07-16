@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <NuspecFile>extensions.string.nuspec</NuspecFile>
+    <NuspecFile>Newteq.Extensions.String.nuspec</NuspecFile>
   </PropertyGroup>
 
 </Project>

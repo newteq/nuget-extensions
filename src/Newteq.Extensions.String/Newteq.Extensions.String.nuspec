@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <metadata>
         <id>Newteq.Extensions.String</id>
-        <version>1.1.0</version>
+        <version>2.0</version>
         <description>
           This package provides some extremely useful C# extensions on top of the base type string. 
 		      These extensions can easily be used off of any string in C#.
@@ -17,10 +17,13 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <summary>This package provides some extremely useful C# extensions on top of the base type string.</summary>
         <releaseNotes>
-          Update the namespace to be our namespace (nuget doesn't seem to like us using System)
+          Make the nuget package work with the nuspec file. You should be able to properly use this package now
         </releaseNotes>
         <copyright>Newteq</copyright>
         <tags>string C# extensions syntactic sugar ASPNETCORE dotnetcore core</tags>
         <repository type="git" url="https://github.com/newteq/nuget-extensions.git"></repository>
     </metadata>
+  <files>
+    <file src=".\lib\*.*" />
+  </files>
 </package>
