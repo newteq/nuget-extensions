@@ -4,9 +4,9 @@
         <id>Newteq.Extensions.String</id>
         <version>2.0</version>
         <description>
-          This package provides some extremely useful C# extensions on top of the base type string. 
-		      These extensions can easily be used off of any string in C#.
-          The bulk of these extensions are simply syntactic sugar to allow for easier reading of code
+This package provides some extremely useful C# extensions on top of the base type string. 
+These extensions can easily be used off of any string in C#.
+The bulk of these extensions are simply syntactic sugar to allow for easier reading of code
         </description>
         <authors>Newteq</authors>
 
@@ -17,7 +17,8 @@
         <requireLicenseAcceptance>true</requireLicenseAcceptance>
         <summary>This package provides some extremely useful C# extensions on top of the base type string.</summary>
         <releaseNotes>
-          Make the nuget package work with the nuspec file. You should be able to properly use this package now
+First working release (Make the nuget package work with the nuspec file. You should be able to properly use this package now)
+Has a bunch of useful string extensions
         </releaseNotes>
         <copyright>Newteq</copyright>
         <tags>string C# extensions syntactic sugar ASPNETCORE dotnetcore core</tags>
