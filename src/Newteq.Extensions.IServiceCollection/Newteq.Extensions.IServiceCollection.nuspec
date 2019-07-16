@@ -3,13 +3,13 @@
     <metadata>
         <!-- Required -->
         <id>Newteq.Extensions.IServiceCollection</id>
-        <version>2.0.0</version>
+        <version>3.0</version>
         <description>
-          By default the TryAddSingleton (or other scopes) in the "Microsoft.Extensions.DependencyInjection.Extensions" namespace/library only allows you to add a single item for a defined interface.
-          Using this package's extenstions will allow you to register more than 1 implementation for a specified interface.
-          The can be useful if you want to inject a specific instance that extends off the same interface.
+By default the TryAddSingleton (or other scopes) in the "Microsoft.Extensions.DependencyInjection.Extensions" namespace/library only allows you to add a single item for a defined interface.
+Using this package's extenstions will allow you to register more than 1 implementation for a specified interface.
+The can be useful if you want to inject a specific instance that extends off the same interface.
 
-          The use case of this package is extremely unquie but it can be used to add in DI if your needs match the above.
+The use case of this package is extremely unquie but it can be used to add in DI if your needs match the above.
         </description>
         <authors>Newteq</authors>
 
@@ -23,9 +23,10 @@
           Using this package's extenstions will allow you to register more than 1 implementation for a specified interface.
         </summary>
         <releaseNotes>
-          Breaking changes (old methods removed) - methods names have been changed.
-          Update the description and usage information.
-          Add clarity to why/where/how this should be used.
+Make the nuget package work with the nuspec file. You should be able to properly use this package now.
+Breaking changes (old methods removed) - methods names have been changed.
+Update the description and usage information.
+Add clarity to why/where/how this should be used.
         </releaseNotes>
         <copyright>Newteq</copyright>
         <tags>C# extensions IServiceCollection Dependency Injection DI Api Services</tags>
@@ -36,4 +37,8 @@
         </dependencies>
 
     </metadata>
+
+  <files>
+    <file src=".\lib\*.*" />
+  </files>
 </package>
