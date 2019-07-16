@@ -1,0 +1,1 @@
+& nuget pack .\Newteq.Extensions.String.csproj -Build -Properties Configuration=Release -OutputDirectory C:\Development\GeneratedNugetPackages\

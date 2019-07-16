@@ -1,0 +1,1 @@
+& nuget pack .\Newteq.Extensions.IServiceCollection.csproj -Build -Properties Configuration=Release -OutputDirectory C:\Development\GeneratedNugetPackages\
