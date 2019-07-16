@@ -2,8 +2,6 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <NuspecFile>Newteq.Extensions.String.nuspec</NuspecFile>
   </PropertyGroup>
 
 </Project>
