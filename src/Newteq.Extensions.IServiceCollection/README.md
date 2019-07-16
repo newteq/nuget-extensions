@@ -1,9 +1,9 @@
 # Dependency Injection Extensions
-This repo contains an ASP.NET Core nuget package for some assistance to help with dependency injection
+By default the `TryAddSingleton` (or other scopes) in the `Microsoft.Extensions.DependencyInjection.Extensions` namespace/library only allows you to add a single item for a defined interface.
+Using this package's extenstions will allow you to register more than 1 implementation for a specified interface.
+The can be useful if you want to inject a specific instance that extends off the same interface.
 
-The main purpose of this repoistory is to allow consumers to use a new extension method added to the `IServiceCollection` called `TryAdd{Scope/Lifetime}`. This extends the functionality of the existing calls on `IServiceCollection` to `Add`.
-
-This extension helps you to ensure that a Service and Implementation is only ever registered once.
+The use case of this package is extremely unquie but it can be used to add in DI if your needs match the above.
 
 # Usage Example
 
@@ -12,7 +12,8 @@ To make use of this, simply do the following
 ```
 public static void AddGeneralLogging(this IServiceCollection services)
         {
-            services.TryAddSingleton<ILoggingService, LoggingService>();
+            services.TryAddMultiSingleton<ILoggingService, LoggingService>();
+			services.TryAddMultiSingleton<ILoggingService, AnotherLoggingService>();
         }
 ```
 
@@ -20,6 +21,6 @@ public static void AddGeneralLogging(this IServiceCollection services)
 
 You can use the following extensions methods off `IServiceCollection`
 
-  - TryAddSingleton
-  - TryAddScoped
-  - TryAddTransient
+  - TryAddMultiSingleton
+  - TryAddMultiScoped
+  - TryAddMultiTransient

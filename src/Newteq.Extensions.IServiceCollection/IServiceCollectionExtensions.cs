@@ -7,13 +7,13 @@ namespace Newteq.Extensions.DependencyInjection
     public static class IServiceCollectionExtensions
     {
         /// <summary>
-        /// This method adds the service implementation to the service collection - if it does not already exist.
+        /// This method adds the service implementation to the service collection - if it does not already exist with the same implementation of the interface provided.
         /// The service is registed as a Singleton Instance
         /// </summary>
         /// <typeparam name="TService">The interface type of the service that you want to register</typeparam>
         /// <typeparam name="TImplementation">The implementation of the type that you want the DI to inject when the TService type is used</typeparam>
         /// <param name="services">The services collection</param>
-        public static void TryAddSingleton<TService, TImplementation>(this IServiceCollection services)
+        public static void TryAddMultiSingleton<TService, TImplementation>(this IServiceCollection services)
             where TService : class
             where TImplementation : class, TService
         {
@@ -21,13 +21,13 @@ namespace Newteq.Extensions.DependencyInjection
         }
 
         /// <summary>
-        /// This method adds the service implementation to the service collection - if it does not already exist
+        /// This method adds the service implementation to the service collection - if it does not already exist with the same implementation of the interface provided.
         /// The service is registed as a Singleton Instance
         /// </summary>
         /// <typeparam name="TService">The interface type of the service that you want to register</typeparam>
         /// <typeparam name="TImplementation">The implementation of the type that you want the DI to inject when the TService type is used</typeparam>
         /// <param name="services">The services collection</param>
-        public static void TryAddScoped<TService, TImplementation>(this IServiceCollection services)
+        public static void TryAddMultiScoped<TService, TImplementation>(this IServiceCollection services)
             where TService : class
             where TImplementation : class, TService
         {
@@ -35,13 +35,13 @@ namespace Newteq.Extensions.DependencyInjection
         }
 
         /// <summary>
-        /// This method adds the service implementation to the service collection - if it does not already exist
-        /// /// The service is registed as a Transient Instance
+        /// This method adds the service implementation to the service collection - if it does not already exist with the same implementation of the interface provided.
+        /// The service is registed as a Transient Instance
         /// </summary>
         /// <typeparam name="TService">The interface type of the service that you want to register</typeparam>
         /// <typeparam name="TImplementation">The implementation of the type that you want the DI to inject when the TService type is used</typeparam>
         /// <param name="services">The services collection</param>
-        public static void TryAddTransient<TService, TImplementation>(this IServiceCollection services)
+        public static void TryAddMultiTransient<TService, TImplementation>(this IServiceCollection services)
             where TService : class
             where TImplementation : class, TService
         {
